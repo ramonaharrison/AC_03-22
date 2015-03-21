@@ -11,6 +11,8 @@ Goals:
 
 [Click here for slides.](https://docs.google.com/a/c4q.nyc/presentation/d/12S0rxujSdbRiYtdWjB2wdC4aRHfsuIqidgykSlw0s2g)
 
+**Important:** Please **fork** this repo and then clone your fork.
+
 ## Encoding
 
 In Java, you can _encode_ a `char` as an `int` simply by casting it.
@@ -46,10 +48,10 @@ Note: Java uses a text encoding named _Unicode_, which is a superset of ASCII.  
 >  Write a method that encodes a string in rot-13. 
 > 
 >  ```java
-> public static String rot13Encode(String string) {
->   // Write me.
-> }
->```
+>  public static String rot13Encode(String string) {
+>    // Write me.
+>  }
+>  ```
 >
 > 1. Write `rot13Decode()`, which decodes the cipher.
 > 
@@ -67,10 +69,10 @@ See: http://docs.oracle.com/javase/7/docs/api/java/net/URL.html
 > 1. Write a method that constructs an HTTP URL from the host name, port number, and path.  Include the port number only if it is _not_ 80.
 > 
 >  ```java
-> public static URL makeHttpUrl(String host, int port, String path) {
->   // Write me.
-> }
-> ```
+>  public static URL makeHttpUrl(String host, int port, String path) {
+>    // Write me.
+>  }
+>  ```
 > 
 > 2. Using overloaded methods, write a similar method that doesn't take a port number, and assumes the port number is 80.
 > 
@@ -98,10 +100,10 @@ We've provided a method `HTTP.get(url)` method to connect to a web server, reque
 >  For example, you could use it to retrieve _Alice in Wonderland_ from [Project Gutenberg](http://www.gutenberg.org/) and count how many times the word "Alice" appears.
 > 
 >  ```
-> enter URL: http://www.gutenberg.org/cache/epub/11/pg11.txt
-> enter word: Alice
-> That word occurs 403 times in the document.
-> ```
+>  enter URL: http://www.gutenberg.org/cache/epub/11/pg11.txt
+>  enter word: Alice
+>  That word occurs 403 times in the document.
+>  ```
 
 Project Gutenberg is a web site that provides thousands of free public domain ebooks.  They are available in a variety of formats, including "plain text", which is easy for computers to process.
 
